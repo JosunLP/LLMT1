@@ -1,4 +1,4 @@
-﻿namespace Basis_.Net_Core_Konsolen_App.models;
+﻿namespace LLMT1.models;
 
 class MenuItem
 {

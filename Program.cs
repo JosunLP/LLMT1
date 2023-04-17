@@ -1,4 +1,4 @@
-﻿namespace Basis_.Net_Core_Konsolen_App;
+﻿namespace LLMT1;
 
 class Program
 {

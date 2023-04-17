@@ -1,3 +1,5 @@
+namespace LLMT1.core;
+
 /// <summary>
 /// An ASCII progress bar
 /// </summary>
