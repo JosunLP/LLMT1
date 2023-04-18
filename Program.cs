@@ -1,4 +1,4 @@
-﻿namespace LLMT1;
+namespace LLMT1;
 
 class Program
 {
@@ -28,6 +28,7 @@ class Program
 					{
 						Commands = new List<MenuItem>()
 						{
+							new MenuItem() { Command = "!train", Description = "Starts the training with all files in the './training/' directory." },
 							new MenuItem(){
 								Command = "!exit",
 								Description = "Ends the execution of the program"
@@ -51,6 +52,11 @@ class Program
 					DekoWorker.SetLogo();
 					Console.WriteLine();
 					DekoWorker.SetSpacer();
+					break;
+				case "!train":
+					TrainingDataHandler trainingDataHandler = new("./training/");
+					LanguageModel languageModel = new();
+					trainingDataHandler.Train(languageModel);
 					break;
 				default:
 					Console.WriteLine("Command Unknown!\n");

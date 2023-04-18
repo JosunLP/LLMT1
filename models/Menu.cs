@@ -1,4 +1,4 @@
-﻿namespace LLMT1.models;
+namespace LLMT1.models;
 
 class Menu
 {
