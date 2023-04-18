@@ -2,5 +2,5 @@
 
 class Menu
 {
-    public List<MenuItem> Commands { get; set; }
+	public List<MenuItem> Commands { get; set; }
 }

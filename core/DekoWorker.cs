@@ -10,8 +10,8 @@ public static class DekoWorker
     /// </summary>
     public static void SetLogo()
     {
-        Console.WriteLine("Today is the " + DateTime.Now  + "\n" +
-        "\n\n\nWelcome to \n\n"+
+        Console.WriteLine("Today is the " + DateTime.Now + "\n" +
+        "\n\n\nWelcome to \n\n" +
         "\r\n   __   __   __  ____________\r\n  / /  / /  /  |/  /_  __<  /\r\n / /__/ /__/ /|_/ / / /  / / \r\n/____/____/_/  /_/ /_/  /_/  \r\n                             \r\n");
     }
 

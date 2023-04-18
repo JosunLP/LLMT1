@@ -2,7 +2,7 @@
 
 class MenuItem
 {
-    public string Command { get; set; }
+	public string Command { get; set; }
 
-    public string Description { get; set; }
+	public string Description { get; set; }
 }
